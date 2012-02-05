@@ -10,7 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta http-equiv="expires" content="0">
 
-	<link id="theme" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/start/jquery-ui.css" rel="stylesheet" />
+	<link id="theme" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/blitzer/jquery-ui.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -21,23 +21,11 @@
 <body>
 
 <ul id="nav">
-	<li><a href="#home"><span>HOME</span></a></li>
-	<li><a href="#about"><span>ABOUT</span></a></li>
-	<li><a href="#download"><span>DOWNLOAD</span></a></li>
-	<li><a href="#docs"><span>DOCS</span></a>
-		<ul>
-			<li><a href="#docs-start"><span>Getting Started</span></a></li>
-			<li><a href="#docs-inline"><span>Basic Usage</span></a></li>
-			<li><a href="#docs-options"><span>Options</span></a></li>
-			<li><a href="#docs-templates"><span>Templates</span></a></li>
-			<li><a href="#docs-route"><span>Routes</span></a></li>
-			<li><a href="#docs-plugins"><span>Plugins</span></a></li>
-			<li><a href="#docs-callbacks"><span>Callbacks</span></a></li>
-			<li><a href="#docs-methods"><span>Methods</span></a></li>
-		</ul>
-	</li>
-	<li><a href="#contribute"><span>CONTRIBUTE</span></a></li>
-	<li><a href="#showcase"><span>SHOWCASE</span></a>
+	<li><a href="#home"><span>WELCOME</span></a></li>
+	<li><a href="#about"><span>WHAT IS RAILS</span></a></li>
+	<li><a href="#download"><span>WHY RAILS</span></a></li>
+	<li><a href="#docs"><span>FOR WHOM</span></a></li>
+  <li><a href="#showcase"><span>SHOWCASE</span></a>
 		<ul>
 			<li><b>THEMES</b></li>
 			<li><a href="#" data-theme="start"><span>start</span></a></li>
@@ -47,6 +35,8 @@
 			<li><a href="#" data-theme="black-tie"><span>black-tie</span></a></li>
 			<li><a href="#" data-theme="ui-darkness"><span>ui-darkness</span></a></li>
 			<li><a href="#" data-theme="ui-lightness"><span>ui-lightness</span></a></li>
+			<li><a href="#" data-theme="blitzer"><span>blitzer</span></a></li>
+
 		</ul>
 	</li>
 </ul>
@@ -56,20 +46,13 @@
 	<div id="home" class="step init-css">
 		<div class="intro-top ui-state-default">
 			<div class="inner">
-				<h4>introducing</h4>
-				<h1 class="ui-state-text">jmpress.js</h1>
-				<p>a jQuery plugin to build a website on the infinite canvas</p>
-				<span class="ui-icon ui-icon-star"></span>
-				<!-- no tabbable things here -->
-				<a href="#" style="visibility: hidden" class="next">next &gt;</a>
+				<img src="img/logo.png" />
+				<a href="#" class="next">start &gt;</a>
 			</div>
 		</div>
 		<div class="intro-bottom ui-state-default">
 			<div class="inner">
-				<h4>introducing</h4>
-				<h1 class="ui-state-text">jmpress.js</h1>
-				<p>a jQuery plugin to build a website on the infinite canvas</p>
-				<span class="ui-icon ui-icon-star"></span>
+				<img src="img/logo.png" />
 				<a href="#" class="next">start &gt;</a>
 			</div>
 		</div>
@@ -434,6 +417,31 @@ $(function() {
 	}, 500);
 });
 </script>
+
+<style>
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+  color: #323130;
+  text-decoration: none;
+}
+
+.ui-state-default a:hover, .ui-state-default a:hover {
+  color: #8A372A;
+  text-decoration: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: 1px solid #D8DCDF;
+  font-weight: bold;
+  color: #323130;
+}
+
+.ui-state-default:hover, .ui-widget-content:hover .ui-state-default:hover, .ui-widget-header:hover .ui-state-default:hover {
+  border: 1px solid #D8DCDF;
+  font-weight: bold;
+  color: #8A372A;
+}
+
+</style>
 
 </body>
 </html>

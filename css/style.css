@@ -291,8 +291,8 @@ h4 {
 	-o-transition:      2s;
 	transition:         2s;
 }
-.intro-top .inner { position: absolute; bottom: -160px; left: 50%; margin-left: -350px; }
-.intro-bottom .inner { position: absolute; top: -83px; left: 50%; margin-left: -350px; }
+.intro-top .inner { position: absolute; bottom: -144px; left: 56%; margin-left: -350px; }
+.intro-bottom .inner { position: absolute; top: -83px; left: 56%; margin-left: -350px; }
 .intro-top {
 	margin: -1000px 0 0 -1500px;
 }
@@ -365,8 +365,8 @@ h4 {
 	right: 0;
 	bottom: 0px;
 
-	background: rgba(255,204,0,1);
-	color: #000;
+	background: #eee;
+	color: #343332;
 	text-align: right;
 
 	font-size: 22px;
