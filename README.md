@@ -36,7 +36,7 @@ branch. Thanks!
 
 ### TESTS
 
-jmpress.js uses the [jasmine bdd](http://pivotal.github.com/jasmine/) library
+jmpress.js uses the [jasmine bdd](https://jasmine.github.io/) library
 for testing. Please load `test.html` in your browser to run the tests.
 
 ## LICENSE
